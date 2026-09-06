@@ -1,0 +1,379 @@
+{
+  "scenarios_tested": [
+    "Aggressive Pricing (\u20b999K)",
+    "Current Pricing (\u20b91.2L)",
+    "Premium Pricing (\u20b91.4L)",
+    "Extended Range (\u20b91.3L, 180km)"
+  ],
+  "comparison": {
+    "Aggressive Pricing (\u20b999K)": {
+      "adoption_rate": 0.6,
+      "revenue_forecast": 2376000,
+      "revenue_at_risk": 1584000,
+      "competitive_threat_index": 0.0,
+      "confidence_weighted_adoption": 0.456
+    },
+    "Current Pricing (\u20b91.2L)": {
+      "adoption_rate": 0.5,
+      "revenue_forecast": 2400000,
+      "revenue_at_risk": 2400000,
+      "competitive_threat_index": 0.091,
+      "confidence_weighted_adoption": 0.383
+    },
+    "Premium Pricing (\u20b91.4L)": {
+      "adoption_rate": 0.5,
+      "revenue_forecast": 2800000,
+      "revenue_at_risk": 2800000,
+      "competitive_threat_index": 0.273,
+      "confidence_weighted_adoption": 0.365
+    },
+    "Extended Range (\u20b91.3L, 180km)": {
+      "adoption_rate": 0.5,
+      "revenue_forecast": 2600000,
+      "revenue_at_risk": 2600000,
+      "competitive_threat_index": 0.182,
+      "confidence_weighted_adoption": 0.375
+    }
+  },
+  "recommendation": {
+    "best_adoption_scenario": "Aggressive Pricing (\u20b999K)",
+    "best_revenue_scenario": "Premium Pricing (\u20b91.4L)",
+    "insight": "'Premium Pricing (\u20b91.4L)' maximizes revenue. 'Aggressive Pricing (\u20b999K)' maximizes market penetration."
+  },
+  "simulation_time_seconds": 0.0,
+  "total_personas": 40,
+  "detailed_results": {
+    "Aggressive Pricing (\u20b999K)": {
+      "scenario": {
+        "price": 99000,
+        "range": 120,
+        "emi": 2500,
+        "competitor_price": 110000
+      },
+      "total_personas": 40,
+      "adoption_rate": 0.6,
+      "delay_rate": 0.4,
+      "switch_rate": 0.0,
+      "confidence_weighted_adoption": 0.456,
+      "revenue_forecast": 2376000,
+      "revenue_at_risk": 1584000,
+      "avg_affordability": 0.687,
+      "avg_practicality": 0.939,
+      "competitive_threat_index": 0.0,
+      "avg_price_elasticity": -0.124,
+      "avg_infrastructure_dependency": 0.504,
+      "segment_adoption_rates": {
+        "Urban Commuter": 1.0,
+        "Student": 0.2,
+        "Gig Rider": 0.4,
+        "Eco Conscious Buyer": 1.0,
+        "Price Sensitive Worker": 0.0,
+        "Suburban Family": 1.0,
+        "Tech Early Adopter": 1.0,
+        "Rural Buyer": 0.2
+      },
+      "segment_breakdown": {
+        "Urban Commuter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Student": {
+          "Buy": 1,
+          "Delay": 4,
+          "Switch": 0,
+          "total": 5
+        },
+        "Gig Rider": {
+          "Buy": 2,
+          "Delay": 3,
+          "Switch": 0,
+          "total": 5
+        },
+        "Eco Conscious Buyer": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Price Sensitive Worker": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Suburban Family": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Tech Early Adopter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Rural Buyer": {
+          "Buy": 1,
+          "Delay": 4,
+          "Switch": 0,
+          "total": 5
+        }
+      },
+      "top_buy_reason": "INFRA_DEPENDENT",
+      "top_delay_reason": "INFRA_DEPENDENT",
+      "top_switch_reason": null
+    },
+    "Current Pricing (\u20b91.2L)": {
+      "scenario": {
+        "price": 120000,
+        "range": 120,
+        "emi": 3000,
+        "competitor_price": 110000
+      },
+      "total_personas": 40,
+      "adoption_rate": 0.5,
+      "delay_rate": 0.5,
+      "switch_rate": 0.0,
+      "confidence_weighted_adoption": 0.383,
+      "revenue_forecast": 2400000,
+      "revenue_at_risk": 2400000,
+      "avg_affordability": 0.632,
+      "avg_practicality": 0.939,
+      "competitive_threat_index": 0.091,
+      "avg_price_elasticity": -0.124,
+      "avg_infrastructure_dependency": 0.504,
+      "segment_adoption_rates": {
+        "Urban Commuter": 1.0,
+        "Student": 0.0,
+        "Gig Rider": 0.0,
+        "Eco Conscious Buyer": 1.0,
+        "Price Sensitive Worker": 0.0,
+        "Suburban Family": 1.0,
+        "Tech Early Adopter": 1.0,
+        "Rural Buyer": 0.0
+      },
+      "segment_breakdown": {
+        "Urban Commuter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Student": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Gig Rider": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Eco Conscious Buyer": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Price Sensitive Worker": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Suburban Family": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Tech Early Adopter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Rural Buyer": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        }
+      },
+      "top_buy_reason": "INFRA_DEPENDENT",
+      "top_delay_reason": "INFRA_DEPENDENT",
+      "top_switch_reason": null
+    },
+    "Premium Pricing (\u20b91.4L)": {
+      "scenario": {
+        "price": 140000,
+        "range": 150,
+        "emi": 3500,
+        "competitor_price": 110000
+      },
+      "total_personas": 40,
+      "adoption_rate": 0.5,
+      "delay_rate": 0.5,
+      "switch_rate": 0.0,
+      "confidence_weighted_adoption": 0.365,
+      "revenue_forecast": 2800000,
+      "revenue_at_risk": 2800000,
+      "avg_affordability": 0.58,
+      "avg_practicality": 1.0,
+      "competitive_threat_index": 0.273,
+      "avg_price_elasticity": -0.124,
+      "avg_infrastructure_dependency": 0.504,
+      "segment_adoption_rates": {
+        "Urban Commuter": 1.0,
+        "Student": 0.0,
+        "Gig Rider": 0.0,
+        "Eco Conscious Buyer": 1.0,
+        "Price Sensitive Worker": 0.0,
+        "Suburban Family": 1.0,
+        "Tech Early Adopter": 1.0,
+        "Rural Buyer": 0.0
+      },
+      "segment_breakdown": {
+        "Urban Commuter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Student": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Gig Rider": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Eco Conscious Buyer": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Price Sensitive Worker": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Suburban Family": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Tech Early Adopter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Rural Buyer": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        }
+      },
+      "top_buy_reason": "INFRA_DEPENDENT",
+      "top_delay_reason": "INFRA_DEPENDENT",
+      "top_switch_reason": null
+    },
+    "Extended Range (\u20b91.3L, 180km)": {
+      "scenario": {
+        "price": 130000,
+        "range": 180,
+        "emi": 3200,
+        "competitor_price": 110000
+      },
+      "total_personas": 40,
+      "adoption_rate": 0.5,
+      "delay_rate": 0.5,
+      "switch_rate": 0.0,
+      "confidence_weighted_adoption": 0.375,
+      "revenue_forecast": 2600000,
+      "revenue_at_risk": 2600000,
+      "avg_affordability": 0.605,
+      "avg_practicality": 1.0,
+      "competitive_threat_index": 0.182,
+      "avg_price_elasticity": -0.124,
+      "avg_infrastructure_dependency": 0.504,
+      "segment_adoption_rates": {
+        "Urban Commuter": 1.0,
+        "Student": 0.0,
+        "Gig Rider": 0.0,
+        "Eco Conscious Buyer": 1.0,
+        "Price Sensitive Worker": 0.0,
+        "Suburban Family": 1.0,
+        "Tech Early Adopter": 1.0,
+        "Rural Buyer": 0.0
+      },
+      "segment_breakdown": {
+        "Urban Commuter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Student": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Gig Rider": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Eco Conscious Buyer": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Price Sensitive Worker": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        },
+        "Suburban Family": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Tech Early Adopter": {
+          "Buy": 5,
+          "Delay": 0,
+          "Switch": 0,
+          "total": 5
+        },
+        "Rural Buyer": {
+          "Buy": 0,
+          "Delay": 5,
+          "Switch": 0,
+          "total": 5
+        }
+      },
+      "top_buy_reason": "INFRA_DEPENDENT",
+      "top_delay_reason": "INFRA_DEPENDENT",
+      "top_switch_reason": null
+    }
+  }
+}
